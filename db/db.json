@@ -4,6 +4,16 @@
       "title": "A note",
       "text": "this note contians text\n",
       "id": "9e96e094-03f8-4ada-bf17-753f6d3bc248"
+    },
+    {
+      "title": "Another note",
+      "text": "this note also contains text",
+      "id": "f538ceb5-5f3c-47f9-b6e7-cebbfaefd9bf"
+    },
+    {
+      "title": "More notes!",
+      "text": "Adding additional notes",
+      "id": "be279d52-7f7d-4ccb-9b38-19193b7ba76b"
     }
   ]
 }

@@ -9,15 +9,15 @@ router.get("/notes", (req, res) => {
 });
 
 router.delete("/notes/:id", (req, res) => {
-  const result = findById(req.params.id, notes);
-  deleteNote(result);
+  const index = findById(req.params.id, notes);
+  deleteNote(index);
   res.json();
 });
 
 router.post("/notes", (req, res) => { 
   req.body.id = uuidv4(); //use this npm package to make ids for each note
   createNewNote(req.body, notes);  
-  res.json(note);
+  res.json(notes);
 });
 
 module.exports = router;
