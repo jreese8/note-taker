@@ -1,3 +1,9 @@
 {
-    "notes": []
+  "notes": [
+    {
+      "title": "A note",
+      "text": "this note contians text\n",
+      "id": "9e96e094-03f8-4ada-bf17-753f6d3bc248"
+    }
+  ]
 }
